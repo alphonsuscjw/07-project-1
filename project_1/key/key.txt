@@ -1,0 +1,1 @@
+nasdaq_api_key = HuzvVbyZtiD8rqcs_m4i
