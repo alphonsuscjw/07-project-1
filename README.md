@@ -4,44 +4,34 @@
 Team Members (team 5)
 -------------------
 
-Chan, Alphonsus
-Flascas, Mark
-Kyaw, Khin
+Chan, Alphonsus;
+Flascas, Mark;
+Kyaw, Khin;
 Nasar, Usama bin
 
 Project Description
 -----------------------------
 
-In this project we have performed analysis on the US and Australian economies. We have tried to find the patterns which are similar i.e. Inflation and wage growth and answered the questions such as:
+In this project we have performed analysis on the US and Australian economies. We have tried to find relationship between inflation and wage growth as well as between inflation and oil prices and we have answered questions such as: does the Australian economy follow the patterns of the US economy?
 
-Does Australian economy follow US economy?
-
-# Data Sources
+Data Sources
 --------------
 
-We have extracted data from a number of data sources such as rba.com.au.
+We have extracted data from a number of data sources, including doing a NASDAQ API to fetch the global oil prices for the last 20 years.
 
-We have also used NASDAQ API to fetch the global oil prices for last 30 years.
-
-# Working
+Coding
 ---------
 
-As first step, we cleaned and merged data sets. We have used the Pandas library to make dataframes to perform analysis.
+As first steps, we cleaned and merged several data sets. To perform analysis, we have used the Pandas library to make dataframes and Matplotlib library to plot charts.
 
-We used Matplotlib library to plot charts.
-
-# Analysis
+Analysis
 ----------
-We have answered four questions as analysis summary.
+We have answered four questions for this analysis.
 
-Q: Is there a correlation between US and Australian inflation?
-A: Yes, they follow the similar pattern.
+1) Q: What is the relationship between the US and Australian inflation? A: They follow a similar pattern.
 
-Q: Is there a correlation between US and Australian wage growth to inflation.
-A: Yes, both US and Australian wage growth follow the trends of inflation but have lagged behind historically.
+2) Q: What is the relationship between the US and Australian wage growth to inflation? A: Both US and Australian wage growths follow the trends of inflation but have lagged behind historically.
 
-Q: Does global Oil prices affect the inflation of US and Australia?
-A: As it is very visible in the Oil prices vs Inflation charts, the Oil prices does dictate the inflation rate in both US and Australia. If oil prices go up, the inflation rate also follow and goes up and converse is true.
+3) Q: Do global oil prices affect inflation in the US and Australia? A: As it is clear in the oil prices vs inflation charts above, the global oil prices do influence the inflation rate in both the US and Australia. If oil prices go up, the inflation rate follow suit and go up. The converse is also true.
 
-Q: Does Australian economy follow the pattern of US economy?
-A: The patterns of wage growth and Inflation in both countries are very similar. So we can say that YES, Australian economy does follow the patterns of US economy.
+4) Q: Does Australian economy follow the pattern of the US economy? A: The patterns of wage growth and inflation in both countries are very similar. Also, oil prices affect inflation in both countries in similar patterns. So we can say that YES, the Australian economy does follow the patterns of the US economy.
